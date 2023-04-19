@@ -2,7 +2,12 @@ import { createRouter, createWebHashHistory } from "vue-router";
 
 const routes = [
     {
-        path: "/",
+        path: "/:code?",
+        name: "listBlobFolder",
+        component: () => import("@/components/ListBlobFolder/ListBlobFolder.vue")
+    },
+    {
+        path: "/home",
         name: "home",
         component: () => import("@/components/HelloWorld.vue")
     },
