@@ -2,7 +2,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 
 const routes = [
     {
-        path: "/:code?",
+        path: "/listBlobFolder",
         name: "listBlobFolder",
         component: () => import("@/components/ListBlobFolder/ListBlobFolder.vue")
     },
@@ -15,6 +15,11 @@ const routes = [
         path: "/dependency-test",
         name: "dependency-test",
         component: () => import("@/custom-components/SlzDependencyTest/SlzDependencyTest.vue")
+    },
+    {
+        path: "/signalR",
+        name: "signalR",
+        component: () => import("@/components/SignalR2.vue")
     }
 ]
 
@@ -24,5 +29,6 @@ const router = createRouter({
     routes
 
 });
+
 
 export default router;  

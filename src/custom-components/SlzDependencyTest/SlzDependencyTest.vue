@@ -9,7 +9,7 @@
 
     <a-button type="primary">Primary Button</a-button>
     <br />
-    <DatePicker></DatePicker>
+    <!-- <DatePicker></DatePicker> -->
     <p>第三方组件</p>
   </div>
 </template>
@@ -27,7 +27,7 @@ import { showMsg } from "../../utils";
 import AButton from "ant-design-vue/lib/button";
 import "ant-design-vue/lib/button/style/css";
 
-import DatePicker from "ant-design-vue/lib/date-picker"; // 加载 JS
+// import DatePicker from "ant-design-vue/lib/date-picker"; // 加载 JS
 import "ant-design-vue/lib/date-picker/style/css"; // 加载 CSS
 
 export default {
@@ -35,7 +35,7 @@ export default {
   components: {
     MyRegion,
     AButton,
-    DatePicker,
+    // DatePicker,
   },
   data() {
     return {};

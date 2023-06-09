@@ -1,17 +1,21 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  
-  <router-view></router-view>
+  <div id="app"> 
+     <!-- <router-view></router-view> -->
+     <signal-r2></signal-r2>
+  </div>
 
 </template>
 
 <script>
+
 import HelloWorld from './components/HelloWorld.vue'
+import SignalR2 from './components/SignalR2.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,SignalR2
   }
 }
 </script>

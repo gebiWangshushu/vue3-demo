@@ -32,13 +32,13 @@
 </template>
 
 <script>
-import DatePicker from 'ant-design-vue/lib/date-picker'; // 加载 JS
+// import DatePicker from 'ant-design-vue/lib/date-picker'; // 加载 JS
 import 'ant-design-vue/lib/date-picker/style/css'; // 加载 CSS
 
 export default {
   name: 'HelloWorld',
   components:{
-    DatePicker
+    // DatePicker
   },
   props: {
     msg: String
